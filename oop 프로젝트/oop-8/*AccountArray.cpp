@@ -1,7 +1,7 @@
 /*
- * ÆÄÀÏÀÌ¸§: AccountArray.cpp
- * ÀÛ¼ºÀÚ: À±¼º¿ì
- * ¾÷µ¥ÀÌÆ® Á¤º¸: [2010, 02, 01] ÆÄÀÏ¹öÀü 0.1
+ * íŒŒì¼ì´ë¦„: AccountArray.cpp
+ * ì‘ì„±ì: ìœ¤ì„±ìš°
+ * ì—…ë°ì´íŠ¸ ì •ë³´: [2010, 02, 01] íŒŒì¼ë²„ì „ 0.1
  */
 
 #include "BankingCommonDecl.h"
@@ -22,7 +22,7 @@ ACCOUNT_PTR& BoundCheckAccountPtrArray::operator[] (int idx)
 	return arr[idx];
 }
 
-ACCOUNT_PTR BoundCheckAccountPtrArray::operator[] (int idx) const 
+ACCOUNT_PTR BoundCheckAccountPtrArray::operator[] (int idx) const // const ì—¬ë¶€ë„ ì˜¤ë²„ë¡œë”© ì¡°ê±´ì´ë‹¤.
 {
 	if(idx<0 || idx>=arrlen)
 	{
