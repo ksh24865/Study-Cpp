@@ -1,7 +1,7 @@
 /*
- * ÆÄÀÏÀÌ¸§: AccountHandler.h
- * ÀÛ¼ºÀÚ: À±¼º¿ì
- * ¾÷µ¥ÀÌÆ® Á¤º¸: [2010, 02, 01] ÆÄÀÏ¹öÀü 0.8
+ * íŒŒì¼ì´ë¦„: AccountHandler.h
+ * ì‘ì„±ì: ìœ¤ì„±ìš°
+ * ì—…ë°ì´íŠ¸ ì •ë³´: [2010, 02, 01] íŒŒì¼ë²„ì „ 0.8
  */
 
 #ifndef __ACCOUN_HANDLER_H__
@@ -13,7 +13,7 @@
 class AccountHandler
 {
 private:
-	BoundCheckAccountPtrArray accArr;
+	BoundCheckAccountPtrArray accArr; // ì¶”ê°€ëœ ë¬¸ì¥
 	int accNum;
 public:
 	AccountHandler();
