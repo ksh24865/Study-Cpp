@@ -1,7 +1,7 @@
 /*
- * ÆÄÀÏÀÌ¸§: Account.h
- * ÀÛ¼ºÀÚ: À±¼º¿ì
- * ¾÷µ¥ÀÌÆ® Á¤º¸: [2010, 02, 01] ÆÄÀÏ¹öÀü 0.8 
+ * íŒŒì¼ì´ë¦„: Account.h
+ * ì‘ì„±ì: ìœ¤ì„±ìš°
+ * ì—…ë°ì´íŠ¸ ì •ë³´: [2010, 02, 01] íŒŒì¼ë²„ì „ 0.8 
  */
 
 #ifndef __ACCOUNT_H__
@@ -16,7 +16,7 @@ private:
 public:
 	Account(int ID, int money, char * name);
 	Account(const Account & ref);
-	Account& operator=(const Account& ref);
+	Account& operator=(const Account& ref); // ëŒ€ì… ì—°ì‚°ìì˜ ì •ì˜!!
 
 	int GetAccID() const;
 	virtual void Deposit(int money);
